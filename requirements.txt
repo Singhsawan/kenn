@@ -20,7 +20,6 @@ yt-dlp
 youtube-dl
 youtube_search
 requests
-aiohttp==3.7.4
 gTTS
 googletrans==3.1.0a0
 telegraph
@@ -31,7 +30,9 @@ countryinfo
 datetime
 pytz
 dnspython
-aiohttp
 python-math
 Pillow
 speedtest-cli
+Flask==2.2.2
+gunicorn==20.1.0
+aiohttp==3.8.1
